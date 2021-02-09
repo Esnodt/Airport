@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6364a3678164d34bf2bfb68367c2ce2" Name="Diagram1">
+        <EntityTypeShape EntityType="AirportModel.AdditionalInformation" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Airplane" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.MainInfo" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Route" Width="1.5" PointX="2.625" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="AirportModel.MainInfo_idAdditionalInformation_AdditionalInformation_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.MainInfo_idAirplane_Airplane_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.MainInfo_idRoute_Route_ID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
